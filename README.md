@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Desenvolvido apartir dos etudos da formação <a href="https://sujeitoprogramador.com/fullstackpro/" target=_blank>FullStack - Sujeito programador</a><br><br>
 Onde foi realizado o clone das páginas de login e de cadastro da rede social Instagram
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://italorafaeltavares.github.io/Clone-Instagram/)
 
 
 ## Layout
