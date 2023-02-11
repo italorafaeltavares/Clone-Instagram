@@ -4,8 +4,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML 
-- CSS
+- HTML5 
+- CSS3
 
 ## Projeto
 
@@ -17,5 +17,6 @@ Onde foi realizado o clone das páginas de login e de cadastro da rede social In
 
 ## Layout
 
-<img align="center" alt="print tela de login" src="./assets/banner-01.png" whidth="250"></a>
-<img align="center" alt="print tela de cadastro" src="./assets/banner-02.png" whidth="250"></a>
+<img align="center" alt="print tela de login" src="./assets/banner-01.png" whidth="200"></a>
+
+<img align="center" alt="print tela de cadastro" src="./assets/banner-02.png" whidth="200"></a>
