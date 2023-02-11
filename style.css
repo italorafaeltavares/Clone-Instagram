@@ -5,13 +5,23 @@
   padding: 0;
 }
 
+:root {
+  --background: #fafafa;
+  --white: #ffffff;
+  --black: #000000;
+  --button-primary: #0095F6;
+  --border-primary: #E6E6E6;
+
+
+}
+
 a {
-  color: #3c96ed;
+  color: var(--button-primary);
   text-decoration: none;
 }
 
 body {
-  background: #fafafa;
+  background: var(--background);
   height: 100%;
   width: 100%;
   padding-left: 0;
@@ -52,8 +62,8 @@ body {
 }
 
 .login-panel {
-  background-color: #fff;
-  border: 1px solid #e6e6e6;
+  background-color: var(--white);
+  border: 1px solid var(--border-primary);
   text-align: center;
   padding: 20px 0;
 }
@@ -72,15 +82,15 @@ form {
 input[type="password"],
 input[type="text"],
 input[type="email"] {
-  background-color: #fff;
-  border: 1px solid rgb(236, 234, 234);
+  background-color: var(--white);
+  border: 1px solid var(--border-primary);
   height: 40px;
   border-radius: 4px;
   margin-top: 4px;
   padding: 10px;
   font-size: 13px;
   width: 320px;
-  color: #000000;
+  color: var(--black);
 }
 
 input[type="password"]::placeholder,
@@ -93,7 +103,7 @@ input[type="password"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: 0;
-  border: 1px solid #a1a1a1;
+  border: 1px solid var(--border-primary);
 }
 
 input[type="submit"] {
@@ -102,18 +112,18 @@ input[type="submit"] {
   margin-bottom: 10px;
   height: 30px;
   border: 0;
-  background-color: #3c96ed;
+  background-color:var(--button-primary);
   border-radius: 4px;
-  color: #fff;
+  color: var(--white);
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .infobox {
-  background-color: #fff;
+  background-color: var(--white);
   height: 60px;
-  border: 1px solid rgb(236, 234, 234);
+  border: 1px solid var(--border-primary);
   margin: 10px auto 0;
 
   display: flex;
@@ -151,7 +161,7 @@ footer {
 }
 
 footer a {
-  color: #000;
+  color: var(--black);
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 8px;
@@ -189,11 +199,11 @@ footer a {
 .cta-button {
   width: 320px;
   margin: 10px 0;
-  height: 35px;
+  height: 30px;
   border: 0;
-  background-color: #3c96ed;
+  background-color: var(--button-primary);
   border-radius: 4px;
-  color: #fff;
+  color: var(--white);
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
@@ -208,7 +218,7 @@ footer a {
 
 .line {
   height: 1px;
-  background-color: #e6e6e6;
+  background-color: var(--border-primary);
   width: 35%;
 }
 
